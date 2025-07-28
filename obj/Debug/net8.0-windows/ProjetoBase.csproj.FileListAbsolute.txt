@@ -1,0 +1,16 @@
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\bin\Debug\net8.0-windows\ProjetoBase.exe
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\bin\Debug\net8.0-windows\ProjetoBase.deps.json
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\bin\Debug\net8.0-windows\ProjetoBase.runtimeconfig.json
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\bin\Debug\net8.0-windows\ProjetoBase.dll
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\bin\Debug\net8.0-windows\ProjetoBase.pdb
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\obj\Debug\net8.0-windows\ProjetoBase.csproj.GenerateResource.cache
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\obj\Debug\net8.0-windows\ProjetoBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\obj\Debug\net8.0-windows\ProjetoBase.AssemblyInfoInputs.cache
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\obj\Debug\net8.0-windows\ProjetoBase.AssemblyInfo.cs
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\obj\Debug\net8.0-windows\ProjetoBase.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\obj\Debug\net8.0-windows\ProjetoBase.dll
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\obj\Debug\net8.0-windows\refint\ProjetoBase.dll
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\obj\Debug\net8.0-windows\ProjetoBase.pdb
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\obj\Debug\net8.0-windows\ProjetoBase.genruntimeconfig.cache
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\obj\Debug\net8.0-windows\ref\ProjetoBase.dll
+C:\Users\Matheus\Documents\MeusProjetos\ProjetoBase\obj\Debug\net8.0-windows\ProjetoBase.FrmLogin.resources
