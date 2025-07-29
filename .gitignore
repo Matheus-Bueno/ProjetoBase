@@ -1,15 +1,33 @@
-﻿# Build
+﻿# Diretórios de build
 bin/
 obj/
 
-# VS Config
+# Configurações do Visual Studio (usuário/local)
 .vs/
-*.csproj.user
 *.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# SQLite auxiliar
+# Arquivos de banco SQLite auxiliares
 *.db-shm
 *.db-wal
+*.db-journal
 
-# Outros
+# Logs
 *.log
+
+# Sistema operacional
+Thumbs.db
+ehthumbs.db
+.DS_Store
+desktop.ini
+
+# Arquivos temporários do Visual Studio e NuGet
+*.cache
+*.pdb
+*.tmp
+*.bak
+*.ncb
+*.aps
+*.ilk
