@@ -1,0 +1,15 @@
+﻿# Build
+bin/
+obj/
+
+# VS Config
+.vs/
+*.csproj.user
+*.suo
+
+# SQLite auxiliar
+*.db-shm
+*.db-wal
+
+# Outros
+*.log
