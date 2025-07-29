@@ -15,5 +15,16 @@ namespace ProjetoBase
             Application.Exit();
             }
         }
+
+        private void BtnVerSenha_MouseDown(object sender, EventArgs e)
+        {
+            txtSenha.UseSystemPasswordChar = false;
+        }
+
+        private void BtnVerSenha_MouseUp(object sender, EventArgs e)
+        {
+            txtSenha.UseSystemPasswordChar = true;
+        }
+
     }
 }

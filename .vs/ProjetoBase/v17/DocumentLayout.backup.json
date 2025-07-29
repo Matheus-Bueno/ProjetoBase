@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|c:\\users\\matheus\\documents\\meusprojetos\\projetobase\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|solutionrelative:frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|c:\\users\\matheus\\documents\\meusprojetos\\projetobase\\view\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|solutionrelative:view\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|c:\\users\\matheus\\documents\\meusprojetos\\projetobase\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|c:\\users\\matheus\\documents\\meusprojetos\\projetobase\\view\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|solutionrelative:view\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|c:\\users\\matheus\\documents\\meusprojetos\\projetobase\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|c:\\users\\matheus\\documents\\meusprojetos\\projetobase\\view\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|solutionrelative:view\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6682258-396F-4D35-A94A-2B972E5B4A18}|ProjetoBase.csproj|c:\\users\\matheus\\documents\\meusprojetos\\projetobase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FrmLogin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\FrmLogin.Designer.cs",
-              "RelativeDocumentMoniker": "FrmLogin.Designer.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\FrmLogin.Designer.cs",
-              "RelativeToolTip": "FrmLogin.Designer.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAewDMAAAArAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\View\\FrmLogin.Designer.cs",
+              "RelativeDocumentMoniker": "View\\FrmLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\View\\FrmLogin.Designer.cs*",
+              "RelativeToolTip": "View\\FrmLogin.Designer.cs*",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAwwHoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T19:56:13.37Z",
               "EditorCaption": ""
@@ -55,30 +55,29 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T19:55:12.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T19:55:12.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FrmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\FrmLogin.cs",
-              "RelativeDocumentMoniker": "FrmLogin.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\FrmLogin.cs",
-              "RelativeToolTip": "FrmLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\View\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "View\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\View\\FrmLogin.cs*",
+              "RelativeToolTip": "View\\FrmLogin.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T19:30:35.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FrmLogin.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\FrmLogin.cs",
-              "RelativeDocumentMoniker": "FrmLogin.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\FrmLogin.cs [Projeto]",
-              "RelativeToolTip": "FrmLogin.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\View\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "View\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\MeusProjetos\\ProjetoBase\\View\\FrmLogin.cs [Projeto]*",
+              "RelativeToolTip": "View\\FrmLogin.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T19:20:29.918Z",
               "EditorCaption": " [Projeto]"
