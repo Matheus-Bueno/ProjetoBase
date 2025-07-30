@@ -1,4 +1,5 @@
 using ProjetoBase.Data;
+using ProjetoBase.UI;
 
 namespace ProjetoBase
 {
@@ -32,6 +33,13 @@ namespace ProjetoBase
         private void BtnLogin_Click(object sender, EventArgs e)
         {
             LoginRepository.VerificaLogin(txtUsername.Text, txtSenha.Text);
+        }
+
+        private void BtnCadastrar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FrmCadastroUsuario frmCadastro = new FrmCadastroUsuario();
+            frmCadastro.ShowDialog();
         }
     }
 }

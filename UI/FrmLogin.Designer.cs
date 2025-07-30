@@ -44,6 +44,7 @@
             btnSair.Cursor = Cursors.Hand;
             btnSair.FlatAppearance.BorderSize = 0;
             btnSair.FlatStyle = FlatStyle.Flat;
+            btnSair.Font = new Font("Segoe UI", 10F);
             btnSair.Location = new Point(239, 12);
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(49, 31);
@@ -57,6 +58,7 @@
             btnLogin.BackColor = Color.Transparent;
             btnLogin.FlatAppearance.BorderSize = 0;
             btnLogin.FlatStyle = FlatStyle.Flat;
+            btnLogin.Font = new Font("Segoe UI", 10F);
             btnLogin.Location = new Point(198, 336);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(90, 44);
@@ -70,55 +72,63 @@
             btnCadastrar.BackColor = Color.Transparent;
             btnCadastrar.FlatAppearance.BorderSize = 0;
             btnCadastrar.FlatStyle = FlatStyle.Flat;
+            btnCadastrar.Font = new Font("Segoe UI", 10F);
             btnCadastrar.Location = new Point(12, 336);
             btnCadastrar.Name = "btnCadastrar";
             btnCadastrar.Size = new Size(90, 44);
             btnCadastrar.TabIndex = 2;
             btnCadastrar.Text = "Cadastrar";
             btnCadastrar.UseVisualStyleBackColor = false;
+            btnCadastrar.Click += BtnCadastrar_Click;
             // 
             // txtUsername
             // 
+            txtUsername.Font = new Font("Segoe UI", 10F);
             txtUsername.Location = new Point(46, 149);
             txtUsername.Name = "txtUsername";
             txtUsername.PlaceholderText = "Digite seu nome de usuario.";
-            txtUsername.Size = new Size(211, 23);
+            txtUsername.Size = new Size(211, 25);
             txtUsername.TabIndex = 3;
             // 
             // txtSenha
             // 
+            txtSenha.Font = new Font("Segoe UI", 10F);
             txtSenha.Location = new Point(46, 213);
             txtSenha.Name = "txtSenha";
             txtSenha.PlaceholderText = "Digite sua senha.";
-            txtSenha.Size = new Size(211, 23);
+            txtSenha.Size = new Size(211, 25);
             txtSenha.TabIndex = 4;
             txtSenha.UseSystemPasswordChar = true;
             // 
             // lblTituloUsername
             // 
             lblTituloUsername.AutoSize = true;
+            lblTituloUsername.Font = new Font("Segoe UI", 10F);
             lblTituloUsername.Location = new Point(42, 131);
             lblTituloUsername.Name = "lblTituloUsername";
-            lblTituloUsername.Size = new Size(60, 15);
+            lblTituloUsername.Size = new Size(71, 19);
             lblTituloUsername.TabIndex = 5;
             lblTituloUsername.Text = "Username";
             // 
             // lblTituloSenha
             // 
             lblTituloSenha.AutoSize = true;
+            lblTituloSenha.Font = new Font("Segoe UI", 10F);
             lblTituloSenha.Location = new Point(46, 195);
             lblTituloSenha.Name = "lblTituloSenha";
-            lblTituloSenha.Size = new Size(39, 15);
+            lblTituloSenha.Size = new Size(46, 19);
             lblTituloSenha.TabIndex = 6;
             lblTituloSenha.Text = "Senha";
             // 
             // btnVerSenha
             // 
+            btnVerSenha.Font = new Font("Segoe UI", 10F);
             btnVerSenha.Location = new Point(226, 213);
             btnVerSenha.Name = "btnVerSenha";
-            btnVerSenha.Size = new Size(31, 23);
+            btnVerSenha.Size = new Size(31, 25);
             btnVerSenha.TabIndex = 7;
             btnVerSenha.Text = "👁️";
+            btnVerSenha.TextAlign = ContentAlignment.TopCenter;
             btnVerSenha.UseVisualStyleBackColor = true;
             btnVerSenha.MouseDown += BtnVerSenha_MouseDown;
             btnVerSenha.MouseUp += BtnVerSenha_MouseUp;
