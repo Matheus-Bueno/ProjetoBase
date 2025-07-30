@@ -1,11 +1,10 @@
 ﻿using System.Data.SQLite;
-using System.IO;
 
 namespace ProjetoBase.Data
 {
     public static class BancoConfig
     {
-        private static string _path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "dado.db");
+        private static string _path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "dados.db");
         private static string _connString = $"Data Source ={_path};Version=3";
 
         public static void VerificarOucriarBanco()
@@ -13,12 +12,10 @@ namespace ProjetoBase.Data
             if (!File.Exists(_path))
             {
                 SQLiteConnection.CreateFile(_path);
-            }
-            else
-            {
                 CriarTabelas();
                 CriarUsuarioRoot();
             }
+            
         }
 
         private static void CriarTabelas()
@@ -49,10 +46,10 @@ namespace ProjetoBase.Data
                 conn.Open();
 
                 string query = @"
-                               INSERT INTO Usuarios 
-                                    (Nome, Login, Senha, Adm)
-                                    VALUES
-                                    (Root, ADM, ADM, 1 )
+                           INSERT INTO Usuarios 
+                                (Nome, Login, Senha, Adm)
+                           VALUES
+                           ('Root', 'ADM', 'ADM', 1 )
                                 ";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
