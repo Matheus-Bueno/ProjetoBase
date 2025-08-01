@@ -38,8 +38,9 @@ namespace ProjetoBase
         private void BtnCadastrar_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FrmCadastroUsuario frmCadastro = new FrmCadastroUsuario();
+            FrmCadastroUsuario frmCadastro = new FrmCadastroUsuario(this);
             frmCadastro.ShowDialog();
         }
-    }
+
+     }
 }
